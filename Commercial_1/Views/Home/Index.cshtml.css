@@ -1,0 +1,31 @@
+.hometxt{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.contain_small{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.par_6{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 250px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.par_6 img{
+	width: 100%;
+}
+.par_6 p{
+font-size: 15px;
+}
+.par_6:hover{
+	transform: translateY(-7px);
+}
+h3{
+	font-weight: normal;
+}
